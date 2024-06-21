@@ -1,0 +1,53 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #001529;
+  color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-title {
+  margin: 0;
+  padding-right: 40px;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.nav-link {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.nav-link.active {
+  text-decoration: underline;
+}
+
+.month-select {
+  margin-left: auto;
+}
+
+.content {
+  padding: 20px 40px;
+  background-color: white;
+  flex: 1;
+  padding-bottom: 50px;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #dfd1d1f7;
+ padding-top: 40px;
+}
